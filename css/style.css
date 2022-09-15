@@ -5,11 +5,22 @@
 body {
     margin: 0;
     padding: 0;
-    
+    font-family: 'Century Gothic', sans-serif;
+}
+
+header{
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 h1 {
     text-align: center;
+    color: rgba(229,49,112,255);
+    font-size: 40px;
+    font-weight: 20px;
+}
+.paragrafo {
+    margin-bottom: 50px;
 }
 
 #main-text {
@@ -17,7 +28,7 @@ h1 {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: auto;
     
 }
@@ -32,17 +43,20 @@ img {
 
 .rettangoli {
     display: inline-block;
-    width: 33%;
+    width: 30.3%;
     border: 5px solid rgb(247, 245, 245);
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     background-color: rgba(15,14,23,255);
-   border-radius: 3px;
+    border-radius: 3px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 14px;
     
 }
 
 .col {
     padding-left: 8rem;
     position: relative;
-    bottom: 10px;
+    bottom: 5px;
     color: white;
 }
