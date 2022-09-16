@@ -44,15 +44,20 @@ img {
 .rettangoli {
     display: inline-block;
     width: 30.3%;
-    border: 5px solid rgb(247, 245, 245);
+    /* border: 5px solid rgb(247, 245, 245); */
     margin-bottom: 40px;
     background-color: rgba(15,14,23,255);
-    border-radius: 3px;
+    /* border-radius: 3px; */
     margin-right: 20px;
     margin-left: 10px;
     font-size: 14px;
+    box-shadow: 10px 10px 5px rgb(211, 211, 211)
+}
+
+.rettangoli::after {
+    content: "";
+    display: block;
     clear: both;
-    
 }
 
 .col {
